@@ -26,7 +26,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
 
     return (
         <>
-            <h4 className="text-center widthTit">Agregar Tarea</h4>
+            <h4 className="text-center widthTit animate__animated animate__fadeIn animate__faster">Agregar Tarea</h4>
             <hr />  
 
             <form onSubmit={ handleSubmit }>
@@ -34,7 +34,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
                 <input
                     type="text" 
                     name="description"
-                    className="form-control"
+                    className="form-control animate__animated animate__flash"
                     placeholder="Hoy voy a..."
                     onChange={ handleInputChange }
                     autoComplete='off'
@@ -42,7 +42,7 @@ export const TodoAdd = ({ handleAddTodo }) => {
                 />
                 <div className = "d-grid gap-2 mt-2">
                     <button 
-                        className="btn btn-primary mt-1"
+                        className="btn btn-primary mt-1 animate__animated animate__flash"
                         type="submit"
                     > 
                         Agregar 

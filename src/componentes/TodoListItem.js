@@ -4,7 +4,7 @@ export const TodoListItem = ({ todo, index, handleDelete, handleToggle }) => {
     return (
         <li
             key={ todo.id }
-            className="list-group-item"    
+            className="list-group-item animate__animated animate__fadeInDown animate__faster"    
         >
             <p 
                 className={`${todo.done && 'complete'}`}

@@ -48,8 +48,8 @@ export const TodoApp = () => {
     
     return (
         <>
-            <h1 className="text-center">Lista de tareas personales</h1><br />
-            <h4 className="">Tareas totales: { todos.length }</h4>
+            <h1 className="text-center animate__animated animate__fadeIn animate__faster">Lista de tareas personales</h1><br />
+            <h4 className="animate__animated animate__fadeIn animate__faster">Tareas totales: { todos.length }</h4>
             <hr /><br />
 
             <div className='row'>

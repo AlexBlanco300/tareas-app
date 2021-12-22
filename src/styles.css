@@ -1,7 +1,9 @@
 
 body {
-    padding: 50px;
-    /* background-image: url(./imagenes/fondotodo5.jpg); */
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
     background-color: #282c34;
     color: white;
     background-repeat: no-repeat;
